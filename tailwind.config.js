@@ -7,11 +7,25 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      colors: {
+        darkBlueIntroemailBg: 'hsl(217, 28%, 15%)',
+        darkBlueMainBg: 'hsl(218, 28%, 13%)',
+        darkBlueFooterBg: 'hsl(216, 53%, 9%)',
+        darkBlueTestimonialsBg: 'hsl(219, 30%, 18%)',
+        cyanInsideGradient: 'hsl(176, 68%, 64%)',
+        blueInsideGradient: 'hsl(198, 60%, 50%)',
+        lightRedError: 'hsl(0, 100%, 63%)',
+        white: 'hsl(0, 0%, 100%)',
       },
+      fontFamily: {
+        'raleway': ['var(--font-raleway)', 'sans-serif'],
+        'openSans': ['var(--font-openSans)', 'sans-serif'],
+      },
+      backgroundImage: {
+        'bgCurvyMobile' : "url(../../public/bg-curvy-mobile.svg)",
+        'bgCurvyDesktop' : "url(../../public/bg-curvy-desktop.svg)",
+        'bgQuotes' : "url(../../public/bg-quotes.png)",
+      }
     },
   },
   plugins: [],
