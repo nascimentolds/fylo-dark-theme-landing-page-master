@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [My solution on Frontend Mentor](https://www.frontendmentor.io/solutions/results-summary-component-react-and-next-js-1l9uM-4xbg)
-- Live Site URL: [See my solution running](https://results-summary-component-main-henna-chi.vercel.app/)
+- Solution URL: [My solution on Frontend Mentor](https://www.frontendmentor.io/solutions/landing-page-nextjs-and-tailwind-css-eAuQNNMjvE)
+- Live Site URL: [See my solution running](https://fylo-dark-theme-landing-page-master-one-rho.vercel.app/)
 
 ## My process
 
