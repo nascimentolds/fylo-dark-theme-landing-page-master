@@ -3,11 +3,11 @@ import advantages from "../../../public/data/advantages.json";
 
 function Adavantages() {
   return (
-    <section className="flex flex-wrap md:flex-row md:w-full bg-darkBlueMainBg">
-          <div>
+    <section className="flex w-full justify-center bg-darkBlueMainBg">
+          <div className="flex flex-wrap md:w-[950px] align-center justify-center">
             {advantages.map((item, index) => (
               <div
-                className="flex flex-col items-center justify-between md:w-[400px] p-6 mt-8"
+                className="flex flex-col items-center justify-between md:w-[400px] p-6 md:mb-8 md:mx-8 mt-8 md:mt-0"
                 key={index}
               >
                 <Image

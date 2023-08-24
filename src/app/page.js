@@ -17,7 +17,7 @@ export default function Home() {
         <Adavantages />
         <StayProductive />
         <Testimunials />
-        <div className="bg-darkBlueMainBg h-[250px]"></div>
+        <div className="bg-darkBlueMainBg h-[250px] md:h-[140px]"></div>
         <GetEarlyAccess />
       </main>
       <Footer />

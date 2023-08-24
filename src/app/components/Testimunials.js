@@ -3,14 +3,14 @@ import testimonials from "../../../public/data/testimonials.json";
 
 function Testimunials() {
   return (
-    <section className="bg-darkBlueMainBg p-12 pt-32">
-          <div className="bg-bgQuotes bg-no-repeat bg-left-top bg-[length:25px] pt-5">
+    <section className="bg-darkBlueMainBg p-12 pt-32 md:p-36 md:pt-16">
+          <div className="md:flex md:justify-between bg-bgQuotes bg-no-repeat bg-left-top bg-[length:25px] md:bg-[length:45px] pt-5 md:pt-7 md:pl-2">
             {testimonials.map((item, index) => (
               <div
                 key={index}
-                className=" bg-darkBlueTestimonialsBg p-5 rounded-md mb-6 shadow-lg"
+                className=" bg-darkBlueTestimonialsBg p-5 md:py-8 rounded-md mb-6 shadow-lg md:w-[320px]"
               >
-                <p className="text-[10px]">{item.testimony}</p>
+                <p className="text-[10px] md:text-[13px]">{item.testimony}</p>
                 <div className="flex items-center mt-4">
                   <Image
                     src={item.pic}

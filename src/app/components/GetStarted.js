@@ -9,10 +9,10 @@ function GetStarted() {
         <Image src={intro} alt="Illustration intro" className="md:w-[600px]" />
       </div>
       <div className="absolute top-[380px] md:top-[700px] md:w-full flex flex-col items-center px-6">
-        <h1 className="md:w-[500px] text-2xl text-center font-raleway font-bold leading-relaxed">
+        <h1 className="md:w-[650px] text-2xl md:text-4xl text-center font-raleway font-bold leading-relaxed md:leading-relaxed">
           All your files in one secure location, accessible anywhere.
         </h1>
-        <p className="text-center p-4 md:w-[450px]">
+        <p className="text-center p-4 md:w-[450px] md:mt-8">
           Fylo stores all your most important files in one secure location.
           Access them wherever you need, share and collaborate with friends
           family, and co-workers.
